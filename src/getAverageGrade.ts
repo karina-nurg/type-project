@@ -1,4 +1,4 @@
-export function getAverageGrade(grades: number[]) {
+export function getAverageGrade(grades: number[]): number {
   let sum = 0;
 
   for (let i = 0; i < grades.length; i++) {

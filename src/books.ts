@@ -10,7 +10,7 @@ export const books: Book[] = [
   { title: '1984', author: 'Джордж Оруэлл', year: 1949 },
 ]
 
-export function printBookTitles(books: Book[]) {
+export function printBookTitles(books: Book[]): void {
   for (let i = 0; i < books.length; i++) {
     console.log(books[i].title)
   }

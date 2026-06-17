@@ -5,7 +5,7 @@ export interface Order {
   pricePerUnit: number
 }
 
-export function getTotalPrice(order: Order) {
+export function getTotalPrice(order: Order): number {
   return order.quantity * order.pricePerUnit
 }
 

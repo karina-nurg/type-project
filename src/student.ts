@@ -21,7 +21,7 @@ export const student1: Student = {
   }
 };
 
-export function printStudentInfo(student: Student) {
+export function printStudentInfo(student: Student): void {
   console.log(`Имя: ${student.fullName}`);
   console.log(`Группа: ${student.group}`);
   console.log(`Оценки: ${student.grades.join(', ')}`);
